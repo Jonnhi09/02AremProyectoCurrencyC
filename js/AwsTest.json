@@ -1,0 +1,9 @@
+{
+	"path": "/examples",
+	"httpMethod": "GET",
+	"headers": {
+		"Accept": "*/*",
+		"Authorization": "41ee871aa5954e9bbb414f38703cd0d2",
+		"content-type": "application/json; charset-UTF-8"
+	}
+}

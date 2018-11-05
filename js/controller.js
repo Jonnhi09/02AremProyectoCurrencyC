@@ -3,7 +3,7 @@ var mapCurrencies = {};
 var tasaActual;
 
 function getLatest() {
-    axios.get('https://openexchangerates.org/api/latest.json?app_id=41ee871aa5954e9bbb414f38703cd0d2').then(function (response) {
+    axios.get('https://nzyuo0jri6.execute-api.us-east-1.amazonaws.com/prod/latest').then(function (response) {
         for (i in response.data["rates"]) {
             mapLatest[i] = response.data["rates"][i];
         }
@@ -17,7 +17,7 @@ function getLatest() {
 }
 
 function getCurrents() {
-    axios.get('https://openexchangerates.org/api/currencies.json?app_id=41ee871aa5954e9bbb414f38703cd0d2').then(function (response) {
+    axios.get('https://nzyuo0jri6.execute-api.us-east-1.amazonaws.com/prod/currencies').then(function (response) {
         var base = document.getElementById("SelectBase");
         var cotizada = document.getElementById("SelectCotizada");
         for (i in response.data) {

@@ -22,4 +22,4 @@ La aplicación cliente debe ser responsive, cualquier congelación en la aplicac
 
 Debe utilizar tecnologías Java y JS modernas para diseñar e implementar la aplicación con las especificaciones mencionadas.
 
-- En la raíz del repositorio se podrá encontrar el artículo y el modelo en astah del proyecto.
+- En la raíz del repositorio se podrá encontrar el modelo en astah del proyecto y el video demo de la aplicación.
